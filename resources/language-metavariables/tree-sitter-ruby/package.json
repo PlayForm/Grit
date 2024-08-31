@@ -10,15 +10,15 @@
   "author": "Rob Rix",
   "license": "MIT",
   "dependencies": {
-    "nan": "^2.19.0",
-    "node-gyp": "^10.0.1",
+    "nan": "^2.20.0",
+    "node-gyp": "^10.2.0",
     "prebuild-install": "^7.1.2"
   },
   "devDependencies": {
-    "eslint": ">=8.57.0",
+    "eslint": ">=9.9.1",
     "eslint-config-google": "^0.14.0",
-    "prebuild": "^13.0.0",
-    "tree-sitter-cli": "^0.21.0"
+    "prebuild": "^13.0.1",
+    "tree-sitter-cli": "^0.23.0"
   },
   "scripts": {
     "build": "tree-sitter generate && node-gyp build",

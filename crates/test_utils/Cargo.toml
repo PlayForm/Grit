@@ -15,9 +15,9 @@ rust.unused_crate_dependencies = "warn"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-anyhow = { version = "1.0.70" }
+anyhow = { version = "1.0.86" }
 marzano-auth = { path = "../auth", features = ["test-utils"] }
-assert_cmd = { version = "2.0.12" }
-tempfile = { version = "3.1" }
+assert_cmd = { version = "2.0.16" }
+tempfile = { version = "3.12" }
 fs_extra = { version = "1.3" }
 

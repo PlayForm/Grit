@@ -11,12 +11,12 @@
   "author": "derek stride",
   "license": "MIT",
   "dependencies": {
-    "nan": "^2.18.0"
+    "nan": "^2.20.0"
   },
   "devDependencies": {
-    "commit-and-tag-version": "^12.0.0",
-    "node-gyp": "^10.0.1",
-    "tree-sitter-cli": "^0.20.8"
+    "commit-and-tag-version": "^12.4.2",
+    "node-gyp": "^10.2.0",
+    "tree-sitter-cli": "^0.23.0"
   },
   "gypfile": true,
   "directories": {

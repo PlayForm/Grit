@@ -11,17 +11,17 @@
   "author": "Max Brunsfeld",
   "license": "MIT",
   "dependencies": {
-    "nan": "^2.18.0"
+    "nan": "^2.20.0"
   },
   "repository": {
       "type": "git",
       "url": "https://github.com/tree-sitter/tree-sitter-json.git"
   },
   "devDependencies": {
-    "eslint": ">=8.56.0",
+    "eslint": ">=9.9.1",
     "eslint-config-google": "^0.14.0",
-    "tree-sitter-cli": "^0.20.8",
-    "node-gyp": "^10.0.1"
+    "tree-sitter-cli": "^0.23.0",
+    "node-gyp": "^10.2.0"
   },
   "scripts": {
     "build": "tree-sitter generate && node-gyp build",

@@ -18,24 +18,24 @@ marzano-language = { path = "../language" }
 marzano-util = { path = "../util", features = ["finder"] }
 grit-util = { path = "../grit-util" }
 tree-sitter = { path = "../../vendor/tree-sitter-facade", package = "tree-sitter-facade-sg" }
-serde = { version = "1.0.164", features = ["derive"] }
-serde_yaml = { version = "0.9.25" }
-anyhow = { version = "1.0.70" }
-futures = { version = "0.3.29" }
+serde = { version = "1.0.209", features = ["derive"] }
+serde_yaml = { version = "0.9.34" }
+anyhow = { version = "1.0.86" }
+futures = { version = "0.3.30" }
 rand = { version = "0.8.5" }
-git2 = { version = "0.17.2", default-features = false, features = [
+git2 = { version = "0.19.0", default-features = false, features = [
   "vendored-openssl",
 ] }
-lazy_static = { version = "1.4.0" }
-regex = { version = "1.7.3" }
+lazy_static = { version = "1.5.0" }
+regex = { version = "1.10.6" }
 tokio = { version = "1", features = ["full"] }
-tempfile = { version = "3.7.0" }
-log = { version = "0.4.19" }
-reqwest = { version = "0.11.22", features = ["blocking", "json"] }
-ignore = { version = "0.4.20" }
-homedir = { version = "0.2.1" }
+tempfile = { version = "3.12.0" }
+log = { version = "0.4.22" }
+reqwest = { version = "0.12.7", features = ["blocking", "json"] }
+ignore = { version = "0.4.22" }
+homedir = { version = "0.3.3" }
 tracing = { version = "0.1.40", default-features = false, features = [] }
 fs-err = { version = "2.11.0" }
 
 [dev-dependencies]
-insta = { version = "1.30.0", features = ["yaml"] }
+insta = { version = "1.39.0", features = ["yaml"] }

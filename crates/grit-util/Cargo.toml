@@ -15,16 +15,16 @@ publish = true
 rust.unused_crate_dependencies = "warn"
 
 [dependencies]
-derive_builder = { version = "0.13.1" }
+derive_builder = { version = "0.20.1" }
 once_cell = { version = "1.19.0" }
-regex = { version = "1.7.3" }
-serde = { version = "1.0.164", features = ["derive"] }
-napi = { version = "2.16.4", default-features = false, features = [
+regex = { version = "1.10.6" }
+serde = { version = "1.0.209", features = ["derive"] }
+napi = { version = "2.16.9", default-features = false, features = [
   "napi8",
   "async",
 ], optional = true}
-napi-derive = { version = "2.12.2", optional = true }
-thiserror = { version = "1.0.61" }
+napi-derive = { version = "2.16.11", optional = true }
+thiserror = { version = "1.0.63" }
 
 [features]
 default = []

@@ -8,10 +8,10 @@
     "incremental"
   ],
   "dependencies": {
-    "nan": "^2.12.1"
+    "nan": "^2.20.0"
   },
   "devDependencies": {
-    "tree-sitter-cli": "^0.20.9"
+    "tree-sitter-cli": "^0.23.0"
   },
   "scripts": {
     "test": "tree-sitter test"

@@ -17,7 +17,7 @@ rust.unused_crate_dependencies = "warn"
 crate-type = ["cdylib"]
 
 [dependencies]
-anyhow = { version = "1.0.70" }
+anyhow = { version = "1.0.86" }
 grit-util = { path = "../grit-util" }
 marzano-core = { path = "../core", features = [
     "wasm_core",
@@ -25,19 +25,19 @@ marzano-core = { path = "../core", features = [
 marzano-language = { path = "../language", default-features = false }
 marzano-util = { path = "../util" }
 ai_builtins = { git = "https://github.com/getgrit/ai_builtins.git", optional = true }
-wasm-bindgen = { version = "0.2.89", features = ["serde-serialize"] }
-wasm-bindgen-futures = { version = "0.4.39" }
+wasm-bindgen = { version = "0.2.93", features = ["serde-serialize"] }
+wasm-bindgen-futures = { version = "0.4.43" }
 serde-wasm-bindgen = { version = "0.6" }
 web-tree-sitter-sg = { path = "../../vendor/web-tree-sitter" }
 tree-sitter = { path = "../../vendor/tree-sitter-facade", package = "tree-sitter-facade-sg" }
 console_error_panic_hook = { version = "0.1.7" }
 
 [target.'cfg(target_arch = "wasm32")'.dependencies]
-anyhow = "1.0.70"
-serde_json = "1.0.96"
+anyhow = "1.0.86"
+serde_json = "1.0.127"
 
 [dev-dependencies]
-wasm-bindgen-test = "0.3.39"
+wasm-bindgen-test = "0.3.43"
 
 [features]
 ai_builtins = ["dep:ai_builtins"]
