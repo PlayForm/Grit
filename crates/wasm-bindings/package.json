@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^5.4.2"
+    "vite": "^5.2.14"
   },
   "dependencies": {
     "web-tree-sitter-wasm-bindgen": "^0.20.8"
